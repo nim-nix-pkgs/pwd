@@ -11,7 +11,6 @@
   inputs.src-pwd-master.ref   = "refs/heads/master";
   inputs.src-pwd-master.owner = "achesak";
   inputs.src-pwd-master.repo  = "nim-pwd";
-  inputs.src-pwd-master.dir   = "";
   inputs.src-pwd-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
